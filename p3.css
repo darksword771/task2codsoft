@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    
+}
+
+#showcase{
+ background-image: url(https://www.hdwallpapers.in/download/dolomites_mountains_4k-3840x2160.jpg);
+ height: 100vh;   
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ padding-top: 16%;
+ color:midnightblue;
+}
+
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+    
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    text-decoration: none;
+    font-size: 18px;
+    color: midnightblue;
+    border: midnightblue 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    color: white;
+    background-color: midnightblue;
+}
+#sec-a{
+    padding: 20px;
+    background-color: #0780bd;
+    color: white;
+    text-align: center;
+
+}
+#sec-b{
+    padding: 20px;
+    background-color: #f4f4f4;
+    color:midnightblue;
+    text-align: center;
+
+}
+#sec-c{
+    display: flex;
+}
+#sec-c div{
+    padding: 20px;
+}
+#sec-c .box1, #sec-c .box3{
+    background-color:#5a6971;
+    color: white;
+}
+#sec-c .box2 {
+    background-color: white;
+    color: midnightblue ;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 20px;
+    background-color:#f4f4f4;
+   
+    
+}
+.icons a{
+    padding: 15px;
+  
+}
